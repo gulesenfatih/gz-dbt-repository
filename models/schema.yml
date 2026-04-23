@@ -2,6 +2,7 @@ version: 2
 
 sources:
   - name: raw
+    database: fatihdata  # Bunu eklemeyi unutma, dbt nereye bakacağını bilsin
     schema: gz_raw_data
     tables:
       - name: sales
